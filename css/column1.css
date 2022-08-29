@@ -17,17 +17,35 @@
 .menu-box-messages,
 .menu-box-invites,
 .menu-box-events,
-.menu-box-settings {
+.menu-box-settings, 
+.menu-box-statistics {
     height: 3rem;
-    padding: 1rem;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* margin-left: 5%; */
+    /* padding: 1rem; */
     border-bottom: 0.15rem solid var(--container-color);
     display: flex;
 }
 
 .menu-box-statistics {
-    height: 3rem;
-    padding: 1rem;
+    border-bottom: none;
+}
+
+.menu-box-text {
+    width: 40%;
+}
+
+.menu-box-quantity {
+    margin-left: 20%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width: 3rem;
+    border-radius: 40%;
+    background-color: #50597b;
 }
 
 .menu-box-messages:hover,
@@ -38,8 +56,14 @@
     background-color: #50597b;
 }
 
+.menu-box-messages:hover .menu-box-quantity,
+.menu-box-invites:hover .menu-box-quantity,
+.menu-box-events:hover .menu-box-quantity {
+    background-color: var(--red-color);
+}
+
 .menu-box-icons {
-    margin-right: 1rem;
+    margin: 0 1rem;
 }
 
 
