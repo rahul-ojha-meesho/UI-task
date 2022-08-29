@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: lighter;
+    --container-color: #1f253d;
+    --block-color: #394264;
+    --green-color: #11a8ab;
+    --red-color: #e64c65;
+    --blue-color: #4fc4f6;
+    --dark-blue-color: #3468af;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    width: 70vw;
+    background-color: var(--container-color);
+    margin: 0 15vw;
+    padding: 2vw 0;
+    overflow: hidden;
+    font-weight: lighter;
+}
+
+
+/* common classes */
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+/* nav css */
+
+.nav {
+    display: flex;
+    align-items: center;
+    width: 60vw;
+    color: #fdfdfd;
+    height: 4rem;
+    background-color: var(--block-color);
+    margin: 5vh 5vw 2vh;
+    border-radius: 5px;
+}
+
+.nav-left {
+    display: flex;
+    width: 60%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: #fdfdfd;
+}
+
+.nav-left-settings, 
+.nav-left-account, 
+.nav-left-messages, 
+.nav-left-favourites {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-icons {
+    margin-right: 0.7rem;
+}
+
+.nav-left-settings:hover, 
+.nav-left-account:hover, 
+.nav-left-messages:hover, 
+.nav-left-favourites:hover {
+    background-color: #7780a0;
+    border-bottom: 3px solid var(--green-color);
+}
+
+.nav-right {
+    display: flex;
+    width: 40%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-right-me {
+    margin-right: 1.5rem;
+}
+
+.nav-right-profileImage {
+    margin-right: 1rem;
+    font-size: 2rem;
+    color: #6e7078;
+}
+
+
+
+/* main body starts here */
+
+.main-body {
+    display: grid;
+    width: 60vw;
+    grid-template-columns: 31% 30% 35%;
+    grid-column-gap: 2%;
+    margin: 0 5vw;
+    color: #fdfdfd;
+}
+
+.main-body-column1,
+.main-body-column2,
+.main-body-column3 {
+    display: grid;
+    grid-template-rows: auto;
+    grid-row-gap: 1rem;
+}
+
+
+@media (max-width: 1250px) {
+    .container {
+        width: 100vw;
+        margin: auto;
+    }
+
+    .main-body {
+        width: 100vw;
+        margin: 0 auto;
+    }
+
+    .nav {
+        margin: 5vh auto 2vh;
+        width: 100vw;
+    }
+}
+
+@media (max-width: 700px) {
+    .nav-left {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        margin-left: 3rem;
+    }
+    
+    .main-body {
+        display: grid;
+        grid-template-columns: 47.5% 47.5%;
+        grid-column-gap: 5%;
+        width: 100vw;
+        margin: 0 auto;
+    }
+
+    .main-body-column3 {
+        margin-top: 2vw;
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 47.5% 47.5%;
+        grid-column-gap: 5%;
+    }
+}
+
+@media (max-width: 500px) { 
+    .main-body {
+        display: flex;
+        flex-direction: column;
+        padding: 0 15%;
+    }
+
+    .main-body-column3 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 400px) { 
+    .main-body {
+        padding: 0 10%;
+    }
+
+    .nav-left {
+        width: 75%;
+    }
+
+    .nav-right {
+        justify-content: space-around;
+    }
+
+    .news-letter-sample-email,
+    .my-account-sample-email {
+        font-size: 0.75rem;
+    }
+
+    .news-letter-email-input,
+    .my-account-email-input {
+        align-items: center;
+    }
+}
+
+
+@media (max-width: 300px) { 
+    .nav-left {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .nav {
+        height: 10rem;
+    }
+
+    .main-body {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+}

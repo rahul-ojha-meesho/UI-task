@@ -1,0 +1,236 @@
+.column-3-heading {
+    margin-bottom: 1rem;
+}
+
+.column-3-button {
+    height: 2rem;
+    width: 50%;
+    background-color: var(--green-color);
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.column-3-button:hover {
+    opacity: 70%;
+}
+
+/* news-letter starts here */
+
+
+.news-letter {
+    width: 100%;
+    background-color: var(--block-color);
+    border-radius: 5px;
+    padding-top: 1rem;
+}
+
+.mail-input {
+    display: flex;
+    width: 90%;
+    border: 0.15rem solid ;
+    border-color: var(--green-color);
+    background-color: #50597b;
+    height: 2.5rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.mail-icon {
+    width: 15%;
+    height: 2rem;
+    font-size: 1.5rem;
+    margin: 0 0.25rem;
+}
+
+.sample-mail {
+    background-color: #50597b;
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+    color: white;
+    outline: none;
+}
+
+.password-input {
+    border-color: var(--container-color);
+}
+
+
+/* my account starts here */
+
+
+.my-account {
+    width: 100%;
+    background-color: var(--block-color);
+    border-radius: 5px;
+    padding-top: 1rem;
+}
+
+.sign-in-button {
+    background-color: var(--red-color);
+}
+
+.my-account-forgot-password {
+    color: #8d96b4;
+    margin-bottom: 1rem;
+}
+
+.my-account-facebook {
+    height: 2rem;
+    width: 100%;
+    display: flex;
+    background-color: var(--blue-color);
+    align-items: center;
+}
+
+.my-account-facebook-icon {
+    padding: 0.5rem 1rem;
+    background-color: var(--dark-blue-color);
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.my-account-facebook-text {
+    padding: 0.5rem 1rem;
+}
+
+/* download-upload starts here */
+
+.download-upload {
+    background-color: var(--block-color);
+    width: 100%;
+    padding: 1rem;
+}
+
+.download, .upload {
+    width: 100%;
+}
+
+.download-status {
+    height: 1rem;
+    background: linear-gradient(to right, var(--green-color) 0%, var(--green-color) 81%, #50597b 81%, #50597b 100%);
+    width: 80%;
+    margin-bottom: 0.5rem;
+    border-radius: 2px;
+}
+
+.upload-status {
+    height: 1rem;
+    background: linear-gradient(to right, var(--blue-color) 0%, var(--blue-color) 43%, #50597b 43%, #50597b 100%);
+    width: 80%;
+    margin-bottom: 0.5rem;
+    border-radius: 2px;
+}
+
+.download-text {
+    margin-bottom: 0.5rem;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* day-date */
+
+.day-date {
+    background-color: var(--block-color);
+}
+
+.day {
+    background-color: #1a4e95;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.day-text {
+    width: 60%;
+    text-align: center;
+}
+
+.day-left-slider {
+    width: 20%;
+    text-align: center;
+}
+
+.day-right-slider {
+    width: 20%;
+    text-align: center;
+}
+
+.date-container {
+    background-color: var(--dark-blue-color);
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.date {
+    font-size: 7rem;
+}
+
+.add-event {
+    background-color: var(--blue-color);
+}
+
+
+/* calender */
+
+
+.calender {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--block-color);
+}
+
+.month {
+    background-color: #3468af;
+    height: 3rem;
+}
+
+.month-text {
+    width: 60%;
+    text-align: center;
+}
+
+.month-left-slider {
+    width: 20%;
+    text-align: center;
+}
+
+.month-right-slider {
+    width: 20%;
+    text-align: center;
+}
+
+.calender-block {
+    text-align: center;
+}
+
+.calender-days {
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: repeat(7, 2rem);
+    grid-template-rows: repeat(7, 2rem);
+}
+
+.calender-day {
+    color: #4ebeef;
+}
+
+.date-before-26 {
+    color: #8a93b1;
+}
+
+.calender-date-26 {
+    background-color: var(--red-color);
+    border-radius: 2rem;
+}

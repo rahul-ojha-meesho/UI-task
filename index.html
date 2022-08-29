@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Assistant</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/column1.css" />
+    <link rel="stylesheet" href="css/column2.css" />
+    <link rel="stylesheet" href="css/column3.css" />
+    <script
+      src="https://kit.fontawesome.com/a42d9d59e6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <nav class="nav">
+        <div class="nav-left">
+          <div class="nav-left-account">
+            <div class="nav-icons">
+              <i class="fas fa-light fa-gear"></i>
+            </div>
+            <div>Settings</div>
+          </div>
+
+          <div class="nav-left-account">
+            <div class="nav-icons">
+              <i class="fas fa-light fa-user"></i>
+            </div>
+            <div>Account</div>
+          </div>
+
+          <div class="nav-left-messages">
+            <div class="nav-icons">
+              <i class="fas fa-light fa-envelope"></i>
+            </div>
+            <div>Messages</div>
+          </div>
+
+          <div class="nav-left-favourites">
+            <div class="nav-icons">
+              <i class="fas fa-light fa-star"></i>
+            </div>
+            <div>Favorites</div>
+          </div>
+        </div>
+
+        <div class="nav-right">
+          <div class="nav-right__me">
+            Me <i class="fas fa-solid fa-angle-down"></i>
+          </div>
+          <div class="nav-right-profileImage">
+            <i class="fas fa-solid fa-circle"></i>
+          </div>
+        </div>
+      </nav>
+
+      <main class="main-body">
+        <div class="main-body-column1">
+          <div class="menu-box flex-column">
+            <div class="menu-box-heading">MENU BOX</div>
+            <div class="menu-box-messages">
+              <div class="menu-box-icons">
+                <i class="fas fa-light fa-envelope"></i>
+              </div>
+              <div>Messages</div>
+            </div>
+
+            <div class="menu-box-invites">
+              <div class="menu-box-icons">
+                <i class="fa fa-brands fa-telegram"></i>
+              </div>
+              <div>Invites</div>
+            </div>
+
+            <div class="menu-box-events">
+              <div class="menu-box-icons">
+                <i class="fa fa-light fa-calendar-days"></i>
+              </div>
+              <div>Events</div>
+            </div>
+
+            <div class="menu-box-settings">
+              <div class="menu-box-icons">
+                <i class="fas fa-light fa-gear"></i>
+              </div>
+              <div>Account Settings</div>
+            </div>
+
+            <div class="menu-box-statistics">
+              <div class="menu-box-icons">
+                <i class="fa fa-light fa-chart-line"></i>
+              </div>
+              <div>Statistics</div>
+            </div>
+          </div>
+
+          <div class="audience-stats flex-center flex-column">
+            <div class="audience-stats-heading">OS AUDIENCE STATS</div>
+
+            <div class="audience-stats-circular-bar flex-center flex-column">
+              <div class="audience-stats-date">
+                <div>JUNE</div>
+                <div>2013</div>
+              </div>
+            </div>
+
+            <div class="audience-stats-percent">
+              <div class="audience-stats-ios audience-stats-percent-devices">
+                <div class="audience-stats-device">iOS</div>
+                <div>21<sup>%</sup></div>
+              </div>
+
+              <div class="audience-stats-mac audience-stats-percent-devices">
+                <div class="audience-stats-device">Mac</div>
+                <div>48<sup>%</sup></div>
+              </div>
+
+              <div class="audience-stats-linux audience-stats-percent-devices">
+                <div class="audience-stats-device">Linux</div>
+                <div>9<sup>%</sup></div>
+              </div>
+
+              <div class="audience-stats-win audience-stats-percent-devices">
+                <div class="audience-stats-device">Win</div>
+                <div>32<sup>%</sup></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="stocks-analysis flex-column">
+            <div class="analysis-graph">
+              <img
+                class="stock-analysis-image"
+                src="/media/graph.png"
+                alt="graph image"
+              />
+            </div>
+
+            <div class="analysis-options">
+              <button class="analysis-button">Week</button>
+              <button class="analysis-button analysis-button-month">
+                Month
+              </button>
+              <button class="analysis-button">Year</button>
+            </div>
+
+            <div class="analysis-months-container">
+              <div class="analysis-month">
+                <div class="analysis-month-text">APR</div>
+                <div class="analysis-year">2013</div>
+                <div class="analysis-percent">
+                  <div class="analysis-plus">+</div>
+                  21<sup class="analysis-percent-symbol">%</sup>
+                </div>
+              </div>
+              <div class="analysis-month">
+                <div class="analysis-month-text">MAY</div>
+                <div class="analysis-year">2013</div>
+                <div class="analysis-percent">
+                  <div class="analysis-plus">+</div>
+                  48<sup class="analysis-percent-symbol">%</sup>
+                </div>
+              </div>
+              <div class="analysis-month">
+                <div class="analysis-month-text">JUN</div>
+                <div class="analysis-year">2013</div>
+                <div class="analysis-percent">
+                  <div class="analysis-plus">+</div>
+                  35<sup class="analysis-percent-symbol">%</sup>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-player">
+            <div class="video-image">
+              <video class="video-player-video" controls>
+                <!-- <source src="/media/cc0-videos/flower.webm" type="video/webm" /> -->
+
+                <source src="/media/video.mp4" type="video/mp4" />
+
+                Sorry, your browser doesn't support embedded videos.
+              </video>
+            </div>
+            <!-- <div class="video-play-details">details</div> -->
+          </div>
+
+          <div class="social-media">
+            <div class="facebook">
+              <div class="facebook-icon">
+                <i class="fa fa-brands fa-facebook-f"></i>
+              </div>
+              <div class="facebook-views">248k</div>
+            </div>
+            <div class="twitter">
+              <div class="twitter-icon">
+                <i class="fa fa-brands fa-twitter"></i>
+              </div>
+              <div class="twitter-views">30k</div>
+            </div>
+            <div class="google-plus">
+              <div class="google-plus-icon">
+                <i class="fa fa-brands fa-google-plus-g"></i>
+              </div>
+              <div class="google-plus-views">124k</div>
+            </div>
+            <div class="email">
+              <div class="email-icon">
+                <i class="fa fa-thin fa-envelope"></i>
+              </div>
+              <div class="email-views">89k</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="main-body-column2">
+          <div class="post">
+            <div class="post-right-icon">
+              <i class="fa fa-thin fa-circle-plus"></i>
+            </div>
+
+            <div class="post-circle">
+              <!-- <i class="fas fa-solid fa-circle"></i> -->
+            </div>
+
+            <div class="post-name">Anne Hathaway</div>
+            <div class="post-description">
+              Lorem ipsum dolor sit amet consectetur adipiscing
+            </div>
+
+            <div class="post-icons">
+              <button class="post-icon post-comments">
+                <div class="post-icon-comment">
+                  <i class="fa fa-light fa-comment"></i>
+                </div>
+                <div>23</div>
+              </button>
+
+              <button class="post-icon post-views">
+                <div class="post-icon-view">
+                  <i class="fa fa-light fa-eye"></i>
+                </div>
+                <div>841</div>
+              </button>
+
+              <button class="post-icon post-likes">
+                <div class="post-icon-like">
+                  <i class="fa fa-light fa-heart"></i>
+                </div>
+                <div>49</div>
+              </button>
+            </div>
+          </div>
+
+          <div class="weather">
+            <div class="weather-location">
+              <div class="weather-location-icon">
+                <i class="fa fa-thin fa-location-dot"></i>
+              </div>
+              <div>CLUJ-NAPOCA/RO</div>
+            </div>
+
+            <div class="weather-date-temp-condition">
+              <div class="weather-date-temp">
+                <div class="weather-date">FRI 29/06</div>
+                <div class="weather-temp">24<sup>&#176;</sup></div>
+              </div>
+              <div class="weather-condition">
+                <i class="fa fa-thin fa-cloud-sun"></i>
+              </div>
+            </div>
+
+            <div class="weather-week">
+              <div class="weather-week-day">
+                <div class="weather-day-date">
+                  SAT
+                  <div class="weather-week-date">29/06</div>
+                </div>
+                <div class="weather-temp-condition">
+                  25<sup>&#176;</sup> <i class="fa fa-thin fa-cloud-sun"></i>
+                </div>
+              </div>
+
+              <div class="weather-week-day weather-sunday">
+                <div class="weather-day-date weather-sunday-text">
+                  SUN
+                  <div class="weather-week-date">30/06</div>
+                </div>
+                <div class="weather-temp-condition">
+                  25<sup>&#176;</sup> <i class="fa fa-thin fa-cloud-sun"></i>
+                </div>
+              </div>
+
+              <div class="weather-week-day">
+                <div class="weather-day-date">
+                  MON
+                  <div class="weather-week-date">01/07</div>
+                </div>
+                <div class="weather-temp-condition">
+                  25<sup>&#176;</sup> <i class="fa fa-thin fa-cloud-sun"></i>
+                </div>
+              </div>
+
+              <div class="weather-week-day">
+                <div class="weather-day-date">
+                  TUE
+                  <div class="weather-week-date">02/07</div>
+                </div>
+                <div class="weather-temp-condition">
+                  25<sup>&#176;</sup> <i class="fa fa-thin fa-cloud-sun"></i>
+                </div>
+              </div>
+
+              <div class="weather-week-day">
+                <div class="weather-day-date">
+                  WED
+                  <div class="weather-week-date">03/07</div>
+                </div>
+                <div class="weather-temp-condition">
+                  25<sup>&#176;</sup> <i class="fa fa-thin fa-cloud-sun"></i>
+                </div>
+              </div>
+
+              <div class="weather-week-day weather-week-thursday">
+                <div class="weather-day-date">
+                  THU
+                  <div class="weather-week-date">04/07</div>
+                </div>
+                <div class="weather-temp-condition">
+                  25<sup>&#176;</sup> <i class="fa fa-thin fa-cloud-sun"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="latest-tweets">
+            <div class="latest-tweets-heading">
+              <div class="latest-tweets-icon">
+                <i class="fa fa-brands fa-twitter"></i>
+              </div>
+              LATEST TWEETS
+            </div>
+            <div class="tweet-container">
+              <div class="tweet">
+                Ice-cream trucks only play music when out of ice-cream. Well
+                played dad. On <a>@Quora</a>
+              </div>
+              <div class="tweet-time">3 minutes ago</div>
+            </div>
+            <div class="tweet-container last-tweet">
+              <div class="tweet">
+                We are in the process of pushing out all of the new CC apps! We
+                will tweet again once they are live <a>#CreativeCloud</a>
+              </div>
+              <div class="tweet-time">6 hours ago</div>
+            </div>
+          </div>
+
+          <!-- <div class="sharing-platforms"> -->
+          <div class="share-to-facebook">
+            <div class="share-to-facebook-icon">
+              <i class="fa fa-brands fa-facebook-f"></i>
+            </div>
+            <div class="share-to-facebook-text">SHARE TO FACEBOOK</div>
+          </div>
+
+          <div class="share-to-twitter">
+            <div class="share-to-twitter-icon">
+              <i class="fa fa-brands fa-twitter"></i>
+            </div>
+            <div class="share-to-twitter-text">SHARE TO TWITTER</div>
+          </div>
+
+          <div class="share-to-google-plus">
+            <div class="share-to-google-plus-icon">
+              <i class="fa fa-brands fa-google-plus-g"></i>
+            </div>
+            <div class="share-to-google-plus-text">SHARE TO GOOGLE+</div>
+          </div>
+          <!-- </div> -->
+        </div>
+
+        <div class="main-body-column3">
+          <div class="news-letter flex-center flex-column">
+            <div class="column-3-heading">JOIN THE NEWSLETTER</div>
+
+            <div class="mail-input">
+              <div class="mail-icon">
+                <i class="fa fa-light fa-envelope mail-icon"></i>
+              </div>
+              <input
+                class="sample-mail"
+                type="email"
+                placeholder="myname@gmail.com"
+              />
+            </div>
+
+            <button class="column-3-button">SUBSCRIBE</button>
+          </div>
+
+          <div class="my-account flex-center flex-column">
+            <div class="column-3-heading">SIGN IN TO YOUR ACCOUNT</div>
+
+            <div class="mail-input">
+              <div class="mail-icon">
+                <i class="fa fa-light fa-envelope mail-icon"></i>
+              </div>
+              <input
+                class="sample-mail"
+                type="email"
+                placeholder="myname@gmail.com"
+              />
+            </div>
+
+            <div class="mail-input password-input">
+              <div class="mail-icon">
+                <i class="fa fa-thin fa-lock mail-icon"></i>
+              </div>
+              <input
+                class="sample-mail"
+                type="password"
+                placeholder="Password"
+              />
+            </div>
+
+            <button class="column-3-button sign-in-button">SIGN IN</button>
+
+            <div class="my-account-forgot-password">Forgot Password?</div>
+
+            <div class="my-account-facebook">
+              <div class="my-account-facebook-icon">
+                <i class="fa fa-brands fa-facebook-f"></i>
+              </div>
+              <div class="my-account-facebook-text">Sign in with Facebook</div>
+            </div>
+          </div>
+
+          <div class="download-upload flex-center flex-column">
+            <div class="download flex-center flex-column">
+              <div class="download-status"></div>
+              <div class="download-text">
+                <div><i class="fa fa-thin fa-cloud-arrow-down"></i></div>
+                <div>Downloading...</div>
+                <div>81%</div>
+              </div>
+            </div>
+
+            <div class="upload flex-center flex-column">
+              <div class="upload-status"></div>
+              <div class="download-text">
+                <div><i class="fa fa-thin fa-cloud-arrow-up"></i></div>
+                <div>Uploading...</div>
+                <div>43%</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="day-date">
+            <div class="day">
+              <div class="day-left-slider">
+                <i class="fa fa-thin fa-circle-chevron-left"></i>
+              </div>
+              <div class="day-text">WEDNESDAY</div>
+              <div class="day-right-slider">
+                <i class="fa fa-thin fa-circle-chevron-right"></i>
+              </div>
+            </div>
+            <div class="date-container">
+              <div class="date">26</div>
+              <button class="column-3-button add-event">ADD EVENT</button>
+            </div>
+          </div>
+
+          <div class="calender">
+            <div class="month flex-center">
+              <div class="month-left-slider">
+                <i class="fa fa-thin fa-circle-chevron-left"></i>
+              </div>
+              <div class="month-text">APRIL 2013</div>
+              <div class="month-right-slider">
+                <i class="fa fa-thin fa-circle-chevron-right"></i>
+              </div>
+            </div>
+
+            <div class="calender-days flex-center">
+              <div class="calender-block calender-day">M</div>
+              <div class="calender-block calender-day">T</div>
+              <div class="calender-block calender-day">W</div>
+              <div class="calender-block calender-day">T</div>
+              <div class="calender-block calender-day">F</div>
+              <div class="calender-block calender-day">S</div>
+              <div class="calender-block calender-day">S</div>
+              <div class="calender-block"></div>
+              <div class="calender-block"></div>
+              <div class="calender-block"></div>
+              <div class="calender-block"></div>
+              <div class="calender-block"></div>
+              <div class="calender-block"></div>
+              <div class="calender-block date-before-26">1</div>
+              <div class="calender-block date-before-26">2</div>
+              <div class="calender-block date-before-26">3</div>
+              <div class="calender-block date-before-26">4</div>
+              <div class="calender-block date-before-26">5</div>
+              <div class="calender-block date-before-26">6</div>
+              <div class="calender-block date-before-26">7</div>
+              <div class="calender-block date-before-26">8</div>
+              <div class="calender-block date-before-26">9</div>
+              <div class="calender-block date-before-26">10</div>
+              <div class="calender-block date-before-26">11</div>
+              <div class="calender-block date-before-26">12</div>
+              <div class="calender-block date-before-26">13</div>
+              <div class="calender-block date-before-26">14</div>
+              <div class="calender-block date-before-26">15</div>
+              <div class="calender-block date-before-26">16</div>
+              <div class="calender-block date-before-26">17</div>
+              <div class="calender-block date-before-26">18</div>
+              <div class="calender-block date-before-26">19</div>
+              <div class="calender-block date-before-26">20</div>
+              <div class="calender-block date-before-26">21</div>
+              <div class="calender-block date-before-26">22</div>
+              <div class="calender-block date-before-26">23</div>
+              <div class="calender-block date-before-26">24</div>
+              <div class="calender-block date-before-26">25</div>
+              <div class="calender-block calender-date-26">26</div>
+              <div class="calender-block">27</div>
+              <div class="calender-block">28</div>
+              <div class="calender-block">29</div>
+              <div class="calender-block">30</div>
+              <div class="calender-block"></div>
+              <div class="calender-block"></div>
+              <div class="calender-block"></div>
+              <div class="calender-block"></div>
+              <div class="calender-block"></div>
+              <div class="calender-block"></div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

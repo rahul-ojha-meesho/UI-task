@@ -1,0 +1,294 @@
+/* menu box */
+
+
+.menu-box {
+    background-color: var(--block-color);
+    border-radius: 5px;
+}
+
+.menu-box-heading {
+    background-color: var(--green-color);
+    height: 3rem;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 5px 5px 0 0;
+}
+
+.menu-box-messages,
+.menu-box-invites,
+.menu-box-events,
+.menu-box-settings {
+    height: 3rem;
+    padding: 1rem;
+    border-bottom: 0.15rem solid var(--container-color);
+    display: flex;
+}
+
+.menu-box-statistics {
+    height: 3rem;
+    padding: 1rem;
+    display: flex;
+}
+
+.menu-box-messages:hover,
+.menu-box-invites:hover,
+.menu-box-events:hover,
+.menu-box-settings:hover,
+.menu-box-statistics:hover {
+    background-color: #50597b;
+}
+
+.menu-box-icons {
+    margin-right: 1rem;
+}
+
+
+/* audience stats */
+
+.audience-stats {
+    background-color: var(--block-color);
+    text-align: center;
+}
+
+.audience-stats-heading {
+    width: 100%;
+    height: 3rem;
+    margin-top: 1rem;
+    color: #fbfbfc;
+}
+
+.audience-stats-circular-bar {
+    height: 9rem;
+    width: 9rem;
+    border: 1.5rem solid;
+    border-top-color: var(--green-color);
+    border-bottom-color: #fcb150;
+    border-left-color: var(--blue-color);
+    border-right-color: var(--red-color);
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+.audience-stats-date {
+    display: flex;
+    flex-direction: column;
+}
+
+.audience-stats-percent {
+    display: flex;
+    width: 100%;
+}
+
+.audience-stats-percent-devices {
+    display: flex;
+    flex-direction: column;
+    width: 24.85%;
+    height: 3.5rem;
+    justify-content: center;
+    background-color: #50597b;
+}
+
+.audience-stats-ios {
+    border-top: 0.25rem solid;
+    border-top-color: var(--red-color);
+    border-right: 1px solid var(--container-color);
+}
+
+.audience-stats-mac {
+    border-top: 0.25rem solid;
+    border-top-color: var(--green-color);
+    border-right: 1px solid var(--container-color);
+}
+
+.audience-stats-linux {
+    border-top: 0.25rem solid;
+    border-top-color: #fcb150;
+    border-right: 1px solid var(--container-color);
+}
+
+.audience-stats-win {
+    border-top: 0.25rem solid;
+    border-top-color: var(--blue-color);
+}
+
+.audience-stats-device {
+    color: #7981a1;
+}
+
+
+/* stocks-analysis */
+
+.stocks-analysis {
+    background-color: var(--block-color);
+}
+
+.stock-analysis-image {
+    width: 100%;
+    height: 13rem;
+    background-color: var(--green-color);
+}
+
+.analysis-options {
+    width: 100%;
+    display: flex;
+    padding: 1rem 0;
+    margin: 0 12.5%;
+}
+
+.analysis-button {
+    width: 25%;
+    height: 1.5rem;
+    color: white;
+    background-color: #50597b;
+    border: none;
+    border-radius: 5px;
+    margin-right: 0.25rem;
+}
+
+.analysis-button-month {
+    background-color: var(--red-color);
+}
+
+.analysis-months-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.analysis-month {
+    display: flex;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+
+.analysis-month-text {
+    margin-right: 0.5rem;
+}
+
+.analysis-year {
+    color: #8891af;
+    margin-right: 40%;
+}
+
+.analysis-percent {
+    display: flex;
+}
+
+.analysis-plus {
+    color: var(--red-color);
+}
+
+.analysis-percent-symbol {
+    font-size: 0.7rem;
+}
+
+
+/* video player */
+
+.video-player {
+    background-color: var(--block-color);
+}
+
+.video-player-video {
+    width: 100%;
+}
+
+
+/* social media */
+
+
+.social-media {
+    display: flex;
+    height: 6rem;
+}
+
+.facebook {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background-color: var(--dark-blue-color);
+}
+
+.facebook-icon {
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook-views {
+    height: 2rem;
+    background-color: #1a4e95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitter {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background-color: var(--blue-color);
+}
+
+.twitter-icon {
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitter-views {
+    height: 2rem;
+    background-color: #35aadc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-plus {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background-color: var(--red-color);
+}
+
+.google-plus-icon {
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-plus-views {
+    height: 2rem;
+    background-color: #cc324b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background-color: #50597b;
+}
+
+.email-icon {
+    height: 4rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-views {
+    height: 2rem;
+    background-color: #363f61;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
