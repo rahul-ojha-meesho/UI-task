@@ -10,3 +10,10 @@ This is the output screenshot for the corresponding clone:
 <img width="1054" alt="Screenshot 2022-08-29 at 11 43 10 AM" src="https://user-images.githubusercontent.com/108991216/187134752-b85e4f32-6e0b-4bd7-b6fc-2a08bf6561d5.png">
 
 To run this in your browser, download the repo and double click on the html file.
+
+Or you can follow the following commands:
+
+Open Terminal
+git clone https://github.com/rko278/UI-task.git
+cd UI-task
+open index.html
