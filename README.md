@@ -13,7 +13,7 @@ To run this in your browser, download the repo and double click on the html file
 
 Or you can follow the following commands:
 
-Open Terminal
-git clone https://github.com/rko278/UI-task.git
-cd UI-task
-open index.html
+1. Open Terminal
+2. git clone https://github.com/rko278/UI-task.git
+3. cd UI-task
+4. open index.html
