@@ -24,7 +24,7 @@
     height: 8rem;
     border-radius: 50%;
     background-color: #787878;
-    border: 4px solid #50597b;
+    border: 4px solid var(--block-light-color);
     margin-bottom: 1rem;
 }
 
@@ -44,7 +44,7 @@
     display: flex;
     height: 2.5rem;
     justify-content: space-between;
-    background-color: #50597b;
+    background-color: var(--block-light-color);
 }
 
 .post-icon {
@@ -53,7 +53,7 @@
     text-align: center;
     justify-content: center;
     border: none;
-    background-color: #50597b;
+    background-color: var(--block-light-color);
     border-top: 0.25rem solid;
     color: white;
     font-size: 1rem;
@@ -159,7 +159,7 @@
 }
 
 .weather-sunday {
-    background-color: #50597b;
+    background-color: var(--block-light-color);
 }
 
 .weather-sunday-text {
