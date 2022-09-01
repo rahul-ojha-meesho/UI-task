@@ -153,7 +153,7 @@ body {
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 750px) {
     .nav-left {
         display: grid;
         grid-template-columns: auto auto;
